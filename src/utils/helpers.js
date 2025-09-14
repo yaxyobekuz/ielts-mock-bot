@@ -1,3 +1,5 @@
-export const extractNumbers = (text = "") => {
+const extractNumbers = (text = "") => {
   return text?.replace(/\D/g, "");
 };
+
+module.exports = { extractNumbers };
